@@ -87,7 +87,9 @@ header .btns .try a{
     border-radius: 5px;
     text-decoration: none;
 }
-
+header .nav-mob{
+    display: none;
+}
 /* center-main ======= */
 .center-main{
     display: flex;
@@ -147,8 +149,44 @@ header .btns .try a{
 }
 /* preparing media responsive base */
 @media(max-width:1000px){
-    
+    header .menu,header .btns{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+    }
+    .center-main .txt{
+        margin-left: 10px;
+    }
+    .center-main .img img{
+        margin-right: 10px;
+    }
+    .center-main .txt h1{
+        font-size: 50px;
+    }
+    header .nav-mob{
+        display: inline;
+    }
 }
-@media(max-width:600px){
-
+@media(max-width:800px){
+    .center-main .img{
+        display: none;
+    }
+    .center-main{
+        padding: 0;
+    }
+    .center-main .txt{
+        margin: 0;
+        padding-top: 0;
+    }
+    .sponsors .sprs img{
+        width: 90px;
+        margin: 5px;
+    }
+    .sponsors .txt{
+        padding: 10px;
+    }
+    .sponsors .txt p{
+        margin: 0;
+    }
 }
