@@ -145,3 +145,10 @@ header .btns .try a{
 .sponsors .sprs img{
     margin-inline: 30px;
 }
+/* preparing media responsive base */
+@media(max-width:1000px){
+    
+}
+@media(max-width:600px){
+
+}
