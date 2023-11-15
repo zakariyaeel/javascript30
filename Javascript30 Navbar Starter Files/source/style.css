@@ -40,14 +40,14 @@ header .menu .mn .nav{
     padding: 20px 50px 40px 50px;
     border-radius: 10px;
     animation-name: menudown;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 header .menu .mn .nav.clknav{
     display: none;   
 }
 @keyframes menudown{
-    from{top: 30px;opacity: 0;}
-    to{top: 45px; opacity: 1;}
+    from{top: 30px;}
+    to{top: 45px;}
 }
 header .menu .mn .nav .item{
     display: flex;
